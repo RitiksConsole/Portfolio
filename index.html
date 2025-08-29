@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritik | Tech Editor & Creator</title>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <style>
+    .photo-block {
+  margin-top: 20px;
+  text-align: center;
+}
+.author1-block {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.author1-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.author1-block img:hover {
+  transform: scale(1.05);
+}
+
+.photo-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  transition: transform 0.3s ease; /* ✅ fixed */
+}
+
+.photo-block img:hover {
+  transform: scale(1.05); /* ✅ apply to img */
+}
+.photo-block p {
+  font-size: 18px;
+  color: #333;
+
+}
+.auth2-block {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.auth2-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.auth2-block img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+    /* Reset & Base */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #bc9797;
+      color: #000000;
+      line-height: 1.0\3;
+    }
+
+    header {
+      background: #361818;
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+      transition: transform 0.1 ease;
+      
+    }
+    header:hover{
+      transform: scale(1.02);
+      
+    }
+    header h1 {
+      font-size: 5rem;
+      letter-spacing: -2px;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+
+    nav {
+      background: #301919;
+      padding: 10px 20px;
+      text-align: right;
+    }
+
+    .contact-btn {
+      background: #ff5e57;
+      color: white;
+      border: 3px rgb(0, 0, 0);
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      background: #000000;
+      zoom: 1.05;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #000000;
+      display: inline-block;
+      border-radius: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #f4f4f4;
+      padding: 30px;
+      font-weight: bold;
+      text-align: center;
+      border: 2px solid #000;
+      border-radius: 8px;
+    }
+
+    .iframely-embed {
+      margin-top: 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 16px 12px rgba(255, 0, 0, 0.2);
+    }
+
+    footer {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer a {
+      color: #ff5e57;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 3rem;
+      }
+
+      .contact-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#contact"><button class="contact-btn">📬 Contact Me</button></a>
+  </nav>
+
+  <header>
+    <h1>RITIK</h1>
+    <p>Tech Editor • Developer • Creator</p>
+  </header>
+
+  <main>
+    <section id="journey">
+  <h2>📸 Featured Moment</h2>
+  <div class="photo-block">
+    <img src="images/author.jpg" alt="Ritik at a historical site" width="50%" height="50%" />
+    <p>
+      Exploring heritage and history—this moment reminds me that creativity is everywhere, even in ancient architecture. I love blending tradition with tech to build something timeless.
+    </p>
+  </div>
+</section>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Ritik, a student at Trigat School with a deep interest in technology, creativity, and strategic thinking. I enjoy solving real-world problems, learning new tools quickly, and building projects that are both functional and visually impactful.
+        <br><br>
+        I’m currently working on launching a YouTube channel to share tutorials and insights, and I’m exploring ways to blend education, innovation, and personal branding into everything I create.
+        
+        With The Help Of  Mukul & Raj .
+
+        <h2>Special Thanks To -</h2>
+                <div class="auth2-block">
+          <p><b>MUKUL (Maternal Uncle)</b></p>
+          
+          <img src="/images/author2.jpeg" alt="author2" width="45%">
+          <p>INTERNET SERVICE PROVIDER</p>
+        </div>
+        
+
+
+        <div class="author1-block">
+          <p><b>RAJ (Grand Uncle)</b></p>
+          <img src="/images/author1.jpeg" alt="author1" width="45%" title="rounded-image">
+          <p>HARDWARE & SOFTWARE SOLUTIONS (Computer Shop)</p>
+        </div> 
+        </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills & Tools</h2>
+      <ul>
+        <li>💻 Good Understanding Of: Operating Systems, BIOS, Networking, Problem Solving, Office Apps, Hardware</li>
+        <li>🐍 Good Knowledge Of: HTML, Python</li>
+        <li>🎨 Skilled in Photo & Video Editing</li>
+        <li>🧠 Strong Error Handling & Debugging</li>
+        <li>⚙️ AI Integration in Workflows</li>
+      </ul>
+    </section>
+
+    <section id="youtube">
+      <h2>🎥 My YouTube Channel</h2>
+      <div class="iframely-embed">
+        <div class="iframely-responsive" style="height: 300px; padding-bottom: 0;">
+          <a href="https://www.youtube.com/channel/UCajhORGdeuTya_RSxbzZC9Q" data-iframely-url="//iframely.net/lxpcWp0V?theme=dark"></a>
+        </div>
+      </div>
+      <script async src="//iframely.net/embed.js"></script>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-btn">Send Message</button>
+        <p id="errorMsg" style="color: red; display: none;">Please fill out all fields correctly.</p>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Connect with me:</p>
+    <a href="https://www.youtube.com/@itskawaii99" target="_blank">YouTube</a> |
+    <a href="mailto:devsaini512095saini@gmail.com">Email</a>
+  </footer>
+
+  <script>
+    const form = document.getElementById('contactForm');
+    const errorMsg = document.getElementById('errorMsg');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (name === '' || email === '' || message === '') {
+        errorMsg.style.display = 'block';
+      } else {
+        errorMsg.style.display = 'none';
+        alert('Message sent successfully! 🚀');
+        form.reset();
+      }
+    });
+  </script>
+</body>
+</html>
